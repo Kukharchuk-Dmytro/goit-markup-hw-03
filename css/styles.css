@@ -66,7 +66,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -74,8 +73,22 @@ body {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.link {
+  margin: 0;
+  padding: 0;
 }
 
+.hero {
+  text-align: center;
+  /* display: inline-block;
+  width: 1600px;
+  height: 600px;
+  background: tomato; */
+}
 
 /* герой */
 /* font-family: Roboto;
@@ -87,41 +100,44 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase; */
 .hero-text {
+  margin: 0;
   color: #ffffff;
-  background-color: #f5f4fa;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 2.5;
-  text-align: center;
+  padding: 15px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 46px;
+  /* background: #054841; */
+  text-shadow: 2px 2px 4px #000000;
 }
 .hero-button {
- display: inline-block;
+  display: inline-block;
   border: 4px solid transparent;
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 11px 34px;
-  min-width: 130px;
- color: white;
+  min-width: 200px;
+  color: white;
   background-color: var(--logo-span);
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2;
   text-decoration: none;
   text-align: center;
+  margin-bottom: 94px;
 }
 
-  /* color: #ffffff;
+/* color: #ffffff;
   background-color: #2196f3;
   font-weight: 900;
   font-size: 16px;
   line-height: 1.87;
   text-decoration: none; */
 
-  
-}
-.header{
-  background:white;
+.header {
+  /* background : mediumspringgreen; */
 }
 .container {
   margin-left: auto;
@@ -129,8 +145,12 @@ text-transform: uppercase; */
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-
+  /* background: tomato; */
+}
 /* section 1 */
+.section {
+  margin-bottom: 94px;
+}
 .section-heading {
   color: var(--colore-heading);
   font-style: normal;
@@ -139,6 +159,7 @@ text-transform: uppercase; */
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin: 0;
 }
 .section-text {
   color: var(--colore-text);
@@ -152,6 +173,9 @@ text-transform: uppercase; */
   list-style: none;
 }
 /* section 2 робота */
+.heading {
+  title
+}
 .section-work .heading {
   color: var(--colore-heading);
   font-weight: 700;
@@ -163,13 +187,23 @@ text-transform: uppercase; */
 
 .section-work .title {
   color: #ffffff;
-  background-color: #757575;
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.16;
 }
+.list-work{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 94px;
+  text-shadow: 2px 2px 4px #000000;
+}
 
 /* команда */
+.section-team{
+  margin-bottom: 94px;
+}
 .section-team .heading {
   color: var(--colore-heading);
   font-weight: 700;
@@ -194,10 +228,17 @@ text-transform: uppercase; */
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0;
+}
+.list-client{
+  margin-bottom: 94px;
+  text-decoration: none;
+  list-style: none;
 }
 
 /* footer
  */
+
 .logo-footer {
   color: var(--logo-color);
   font-family: Raleway, cursive;
@@ -238,11 +279,14 @@ text-transform: uppercase; */
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
 .navigation {
   list-style: none;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 .product {
   color: rgba(255, 255, 255, 0.4);
@@ -250,6 +294,8 @@ text-transform: uppercase; */
   line-height: 2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
 }
 
 .footer {
@@ -258,23 +304,36 @@ text-transform: uppercase; */
 
 /* портфолио */
 
-.button {
-  color: #212121;
-  font-family: Roboto;
-  font-style: normal;
+.button-portfolio {
+   display: inline-block;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  padding: 6px 22px;
+  min-width: 73px;
+  color: black;
+  background-color: #F5F4FA;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  background-color: #f5f4fa;
+  line-height: 1.625;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
+
 }
-.button :hover,
-.button :focus {
+
+.button.button-portfolio :hover,
+.buttonbutton-portfolio :focus {
   color: var(--colore-focus);
 }
 
 .portfolio {
   list-style: none;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 94px;
+  
 }
 
 .portfolio .link {
@@ -288,6 +347,8 @@ text-transform: uppercase; */
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
+  margin: 0;
+  padding: 0;
 }
 
 .link-text {
@@ -295,6 +356,8 @@ text-transform: uppercase; */
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
 }
 
 .text-demo {
@@ -303,4 +366,22 @@ text-transform: uppercase; */
   line-height: 28px;
   letter-spacing: 0.03em;
   background: #2196f3;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-button {
+  display: inline-block;
+  border: 4px solid transparent;
+  border-radius: 4px;
+  padding: 11px 34px;
+  min-width: 200px;
+  color: white;
+  background-color: var(--logo-span);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 50px;
 }
