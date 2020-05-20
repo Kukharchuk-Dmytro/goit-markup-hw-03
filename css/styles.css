@@ -43,8 +43,7 @@ body {
 /* логотип */
 .logo {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding: auto;
 
   color: var(--logo-color);
   font-family: Raleway, cursive;
@@ -57,7 +56,7 @@ body {
 
 .main-nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .logo > span {
@@ -144,12 +143,14 @@ text-transform: uppercase; */
   margin: 0px;
   font-weight: 900;
   font-size: 44px;
-  line-height: 2.5;
+  line-height: 1.36;
   /* padding: 200px 477px 296px 477px; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
+  padding-top: 200px;
+  margin-bottom: 46px;
 }
 .hero-button {
   display: inline-block;
@@ -164,6 +165,7 @@ text-transform: uppercase; */
   line-height: 1.2;
   text-decoration: none;
   text-align: center;
+  margin-bottom: 200px;
 }
 
 /* color: #ffffff;
@@ -295,9 +297,12 @@ text-transform: uppercase; */
 }
 .people {
   text-align: center;
-  width: 278px;
+  width: 270px;
   height: 422px;
   background: #ffffff;
+}
+.list-work .title + .title {
+  margin-left: 15px;
 }
 .listt .people + .people {
   margin-left: 15px;
