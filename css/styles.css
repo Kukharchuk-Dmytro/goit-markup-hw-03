@@ -72,16 +72,6 @@ body {
   margin-left: 50px;
 }
 
-.auth-nav {
-  display: flex;
-  margin-left: 330px;
-  align-items: center;
-}
-
-.auth-nav .item + .item {
-  margin-left: 50px;
-}
-
 .site-nav .link {
   display: block;
   color: var(--colore-heading);
@@ -96,6 +86,16 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--colore-focus);
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: 370px;
+  align-items: center;
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
 }
 
 .auth-nav .link {
@@ -117,6 +117,7 @@ body {
 .hero {
   text-align: center;
   background: rgba(47, 48, 58, 0.8);
+  background-image: url(./image/img\overlay.jpg);
   /* height: 600px; */
   margin-bottom: 94px;
   /* display: inline-block;
@@ -139,18 +140,19 @@ text-transform: uppercase; */
   align-items: center;
 }
 .hero-text {
-  color: #ffffff;
-  margin: 0px;
+  margin: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 646px;
+  padding-top: 200px;
+  align-content: center;
+  color: #171616;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* padding: 200px 477px 296px 477px; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-shadow: 2px 2px 4px #000000;
-  text-align: center;
-  padding-top: 200px;
-  margin-bottom: 46px;
 }
 .hero-button {
   display: inline-block;
@@ -166,6 +168,7 @@ text-transform: uppercase; */
   text-decoration: none;
   text-align: center;
   margin-bottom: 200px;
+  margin-top: 46px;
 }
 
 /* color: #ffffff;
@@ -184,6 +187,7 @@ text-transform: uppercase; */
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  /* outline: 2px solid tomato; */
 
   /* background: tomato; */
 }
@@ -207,6 +211,7 @@ text-transform: uppercase; */
   text-decoration: none;
   margin: 0;
   margin-bottom: 10px;
+  margin-top: 30px;
   text-transform: uppercase;
 }
 .section-text {
@@ -224,6 +229,9 @@ text-transform: uppercase; */
 
 .list .items + .items {
   margin-left: 30px;
+}
+.items {
+  width: 270px;
 }
 /* .site-nav .item + .item {
   margin-left: 50px; */
@@ -509,8 +517,8 @@ text-transform: uppercase; */
   margin-top: 94px;
 }
 
-.button-portfolio :hover,
-.button-portfolio :focus {
+.container-link :hover,
+.container-link :focus {
   color: var(--colore-focus);
 }
 
