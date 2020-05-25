@@ -29,7 +29,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  width: 1600px;
 }
 .list {
   list-style: none;
@@ -287,7 +286,6 @@ text-transform: uppercase; */
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
 }
 .section-team .heading {
   color: var(--colore-heading);
@@ -439,7 +437,6 @@ text-transform: uppercase; */
 
 .footer {
   background-color: #2f303a;
-  width: 1600px;
 }
 .navigation-button {
   display: flex;
@@ -519,7 +516,8 @@ text-transform: uppercase; */
 
 .container-link :hover,
 .container-link :focus {
-  color: var(--colore-focus);
+  color: var(--colore-backgraund);
+  background: var(--colore-focus);
 }
 
 .portfolio {
